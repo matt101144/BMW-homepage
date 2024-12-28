@@ -27,8 +27,7 @@
     padding-top: 40px;
     padding-left: 160px;
     padding-right: 100px;
-    border: 10px black;
-
+    border-bottom: 2px solid white;
 }
 .navbar-left{
     display: flex;
@@ -48,10 +47,9 @@
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: white; /* Text color remains visible */
-    background-color: transparent; /* Fully see-through */
-    text-decoration: none; /* No underline */
-    text-align: center;
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none; 
     cursor: pointer;
     transition: color 0.3s ease, border-color 0.3s ease;
     font-weight: bold;
@@ -62,12 +60,26 @@
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: white; /* Text color remains visible */
-    background-color: transparent; /* Fully see-through */
-    text-decoration: none; /* No underline */
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none; 
     text-align: center;
     cursor: pointer;
     transition: color 0.3s ease, border-color 0.3s ease;
 }
-
-    
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover::after,
+  .navbar a.active::after {
+    width: 100%;
+    background-color: blue;
+  }
