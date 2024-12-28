@@ -27,20 +27,20 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
-    padding-left: 160px;
+    padding-left: 120px;
     padding-right: 100px;
     border-bottom: 2px solid white;
 }
 
 .navbar-left {
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     
 }
 
 .navbar-right {
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .navbar-left, .navbar-right {
@@ -48,7 +48,7 @@
 }
 
 .navbar a {
-    position: relative; /* Ensures ::after is positioned relative to the link */
+    position: relative; 
 }
 
 .navbutton-left-button, .navbutton-right-button {
@@ -73,11 +73,14 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: blue; /* Underline color */
+    background-color: blue; 
     transition: width 0.3s ease-in-out;
 }
 
 .navbar a:hover::after,
 .navbar a.active::after {
-    width: 100%; /* Creates the underline effect */
+    width: 100%; 
+}
+.main-text{
+    color: white;
 }
