@@ -34,13 +34,10 @@
 
 .navbar-left {
     display: flex;
-    /* gap: 10px; */
-    
 }
 
 .navbar-right {
     display: flex;
-    /* gap: 10px; */
 }
 
 .navbar-left, .navbar-right {
@@ -83,4 +80,8 @@
 }
 .main-text{
     color: white;
+}
+.title-1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
