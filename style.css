@@ -99,5 +99,19 @@
 .modelbuttons{
     font-size: 100px;
     display: flex;
-    font-size: 50px;
+    flex-direction: row;
+    width: 900px;
+    height: 60px;
+    gap: 20px;
+}
+.but1, .but2{
+    width: 500px;
+}
+.but1{
+    background-color: blue;
+    color: white;
+}
+.but2{
+    background-color: transparent;
+    color: white;
 }
