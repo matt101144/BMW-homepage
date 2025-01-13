@@ -30,6 +30,8 @@
     padding-left: 120px;
     padding-right: 100px;
     border-bottom: 2px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .navbar-left {
@@ -107,12 +109,15 @@
 .but1, .but2{
     width: 300px;
     border-radius: 6px;
-    
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
 }
 .but1{
     background-color: blue;
     color: white;
-    border: 1px solid black;
+    border: 1px solid transparent
 }
 .but2{
     background-color: transparent;
