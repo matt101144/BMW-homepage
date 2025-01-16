@@ -136,4 +136,6 @@
 .fourboxes{
     display: flex;
     justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 150px;
 }
