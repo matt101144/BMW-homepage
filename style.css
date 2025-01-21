@@ -110,20 +110,22 @@ button{
     color: white;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 300px;
-    /* font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif; */
 }
 .title-1{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif; ;
+    font-family: 'Rajdhani', sans-serif;
 }
 .carmodel{
     font-size: 250px;
+    font-family: 'Rajdhani', sans-serif;
+
 }
 .modelname{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 .modelbuttons{
     font-size: 100px;
@@ -156,6 +158,7 @@ button{
     justify-content: center;
     font-size: 44px;
     margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .fourboxes{
     display: flex;
@@ -194,15 +197,16 @@ button{
 .title-3{
     margin-top: 80px;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif; ;
+    font-family: 'Rajdhani', sans-serif;
     margin-left: 10px;
 }
 .carmodel3{
     font-size: 250px;
+    font-family: 'Rajdhani', sans-serif;
 }
 .modelname3{
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 .fourth-card{
     background-image: url(./images/fourthimage.jpg);
@@ -217,7 +221,7 @@ button{
     flex-direction: column;
     color: white;
     margin-left: 80px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 .title-4{
     font-size: 60px;
@@ -254,7 +258,7 @@ button{
     margin-left: 80px;
     display: flex;
     flex-direction: column;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 .title-5{
     font-size: 60px;
@@ -264,7 +268,8 @@ button{
     font-size: 22px;
 }
 .directory-buttons{
-   
+   display: flex;
+   gap: 20px;
 }
 .directory-button-1, .directory-button-2{
     width: 300px;
