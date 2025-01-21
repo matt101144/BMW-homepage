@@ -6,6 +6,32 @@
     padding: 0;
 }
 
+/* imagedark to light */
+.top-card, .third-card, .fourth-card, .fifth-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.top-card::before, .third-card::before, .fourth-card::before, .fifth-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    pointer-events: none; 
+    z-index: 1; 
+}
+.top-card > *, .third-card > *, .fourth-card > *, .fifth-card > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+button{
+    cursor: pointer;
+}
 .top-card {
     background-image: url(./images/silvercar.jpg);
     background-size: cover; 
@@ -190,13 +216,18 @@
     display: flex;
     flex-direction: column;
     color: white;
+    margin-left: 80px;
+
 }
 .title-4{
     font-size: 60px;
+    margin-top: 200px;
 }
-
-
-
+.model-description{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
 .fourthbutton{
     width: 300px;
     border-radius: 6px;
@@ -208,4 +239,51 @@
     color: white;
     font-size: 16px;
     height: 60px;
+    border: 2px transparent;
+}
+.fifth-card{
+    background-image: url(./images/fifthcardimage.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 70vh;
+    margin-top: 50px;
+}
+.fifthmaintext{
+    color: white;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title-5{
+    font-size: 60px;
+    margin-top: 200px;
+}
+.title-5-description{
+    font-size: 22px;
+}
+.directory-buttons{
+   
+}
+.directory-button-1, .directory-button-2{
+    width: 300px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 16px;
+    height: 60px;
+    border: 2px transparent;
+    margin-top: 40px;
+}
+.directory-button-1{
+    background-color: rgb(47, 114, 214);
+    color: white;
+}
+.directory-button-2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
