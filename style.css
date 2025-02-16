@@ -292,3 +292,17 @@ button{
     color: white;
     border: 1px solid white;
 }
+
+
+
+
+
+.sixth-image{
+    height: 600px;
+    width: 900px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.sixth-card{
+    display: flex;
+}
