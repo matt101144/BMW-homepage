@@ -338,4 +338,9 @@ footer{
 .footer-links{
     display: flex;
     justify-content: space-around;
+    margin: 10px;
+}
+.contact-title, .quicklinks-title, .experiencebmw-title, .legaltitle{
+    margin-bottom: 10px;
+    margin-top: 80px;
 }
