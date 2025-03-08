@@ -53,7 +53,7 @@ button{
     display: flex;
     align-items: center; /* Ensures everything is aligned in the middle */
     justify-content: space-between;
-    padding: 40px 100px; 
+    /* padding: 40px 100px;  */
     border-bottom: 2px solid white;
     margin-left: 50px;
     margin-right: 50px;
