@@ -23,16 +23,15 @@
     pointer-events: none; 
     z-index: 1; 
 }
-
 .top-card > *, .third-card > *, .fourth-card > *, .fifth-card > * {
     position: relative;
     z-index: 2;
 }
 
-button {
+
+button{
     cursor: pointer;
 }
-
 .top-card {
     background-image: url(./images/silvercar.jpg);
     background-size: cover; 
@@ -43,31 +42,30 @@ button {
 }
 
 .logo {
-    height: 50px;  /* Slightly reduced size to maintain balance */
-    width: 50px;   /* Maintain aspect ratio */
-    position: relative;
-    bottom: 12px;
-    right: 80px;   
+    height: 50px; 
+    width: 50px;
+    margin: 0; /* Remove unnecessary spacing */
+    padding: 0; /* Ensure no internal space */
+    align-self: center; /* Align perfectly with navbar items */
 }
 
 .navbar {
     display: flex;
+    align-items: center; /* Ensures everything is aligned in the middle */
     justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 120px;
-    padding-right: 100px;
+    padding: 40px 100px; 
     border-bottom: 2px solid white;
     margin-left: 50px;
     margin-right: 50px;
+    padding-top: 20px;
 }
 
-.navbar-left {
-    display: flex;
-}
-
+.navbar-left,
 .navbar-right {
     display: flex;
+    align-items: center; /* Aligns buttons and logo */
 }
+
 
 .navbar-left, .navbar-right {
     color: white;
@@ -107,32 +105,28 @@ button {
 .navbar a.active::after {
     width: 100%; 
 }
-
-.main-text {
+.main-text{
     color: white;
     display: flex;
     flex-direction: column;
     margin-left: 80px;
     margin-top: 300px;
 }
-
-.title-1 {
+.title-1{
     font-size: 30px;
     font-family: 'Rajdhani', sans-serif;
 }
-
-.carmodel {
+.carmodel{
     font-size: 250px;
     font-family: 'Rajdhani', sans-serif;
-}
 
-.modelname {
+}
+.modelname{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Rajdhani', sans-serif;
 }
-
-.modelbuttons {
+.modelbuttons{
     font-size: 100px;
     display: flex;
     flex-direction: row;
@@ -140,8 +134,7 @@ button {
     height: 60px;
     gap: 20px;
 }
-
-.but1, .but2 {
+.but1, .but2{
     width: 300px;
     border-radius: 6px;
     font-weight: bold;
@@ -149,28 +142,24 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
-
-.but1 {
+.but1{
     background-color: rgb(47, 114, 214);
     color: white;
     border: 1px solid transparent;
 }
-
-.but2 {
+.but2{
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
-
-.secondtitle {
+.secondtitle{
     display: flex;
     justify-content: center;
     font-size: 44px;
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.fourboxes {
+.fourboxes{
     display: flex;
     justify-content: space-between;
     margin-right: 150px;
@@ -181,52 +170,44 @@ button {
     text-align: center;
     background-color: white;
 }
-
-.box1button {
-    width: 380px;
+.box1button{
+    width: 380px; /* Adjusted for the buttons to be wider */
     height: 50px;
     background-color: transparent;
     font-weight: bold;
     font-size: 16px;
 }
-
-.box1title {
+.box1title{
     margin-bottom: 20px;
 }
-
-.third-card {
+.third-card{
     background-image: url(./images/3rdcardimage.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     width: 100%; 
     height: 70vh;
 }
-
-.thirdmaintext {
+.thirdmaintext{
     display: flex;
     flex-direction: column;
     margin-left: 80px;
     color: white;
 }
-
-.title-3 {
+.title-3{
     margin-top: 80px;
     font-size: 30px;
     font-family: 'Rajdhani', sans-serif;
     margin-left: 10px;
 }
-
-.carmodel3 {
+.carmodel3{
     font-size: 250px;
     font-family: 'Rajdhani', sans-serif;
 }
-
-.modelname3 {
+.modelname3{
     font-size: 40px;
     font-family: 'Rajdhani', sans-serif;
 }
-
-.fourth-card {
+.fourth-card{
     background-image: url(./images/fourthimage.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
@@ -234,27 +215,23 @@ button {
     height: 70vh;
     margin-top: 50px;
 }
-
-.fourthmaintext {
+.fourthmaintext{
     display: flex;
     flex-direction: column;
     color: white;
     margin-left: 80px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.title-4 {
+.title-4{
     font-size: 60px;
     margin-top: 200px;
 }
-
-.model-description {
+.model-description{
     margin-top: 20px;
     margin-bottom: 40px;
     font-size: 20px;
 }
-
-.fourthbutton {
+.fourthbutton{
     width: 300px;
     border-radius: 6px;
     font-weight: bold;
@@ -267,8 +244,7 @@ button {
     height: 60px;
     border: 2px transparent;
 }
-
-.fifth-card {
+.fifth-card{
     background-image: url(./images/fifthcardimage.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
@@ -276,30 +252,25 @@ button {
     height: 70vh;
     margin-top: 50px;
 }
-
-.fifthmaintext {
+.fifthmaintext{
     color: white;
     margin-left: 80px;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.title-5 {
+.title-5{
     font-size: 60px;
     margin-top: 200px;
 }
-
-.title-5-description {
+.title-5-description{
     font-size: 22px;
 }
-
-.directory-buttons {
+.directory-buttons{
    display: flex;
    gap: 20px;
 }
-
-.directory-button-1, .directory-button-2 {
+.directory-button-1, .directory-button-2{
     width: 300px;
     border-radius: 6px;
     font-weight: bold;
@@ -311,30 +282,30 @@ button {
     border: 2px transparent;
     margin-top: 40px;
 }
-
-.directory-button-1 {
+.directory-button-1{
     background-color: rgb(47, 114, 214);
     color: white;
 }
-
-.directory-button-2 {
+.directory-button-2{
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
 
-.sixth-image {
+
+
+
+
+.sixth-image{
     height: 600px;
     width: 900px;
     margin-top: 60px;
     margin-left: 80px;
 }
-
-.sixth-card {
+.sixth-card{
     display: flex;
 }
-
-.sixth-desc {
+.sixth-desc{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,59 +313,50 @@ button {
     margin-left: 80px;
     margin-top: 80px;
 }
-
-.sixth-title {
+.sixth-title{
     font-size: 40px;
     margin-left: 30px;
 }
-
-.sixth-description {
+.sixth-description{
     font-size: 20px;
     margin-left: 30px;
 }
-
-.sixth-button {
+.sixth-button{
     background: transparent;
     border: transparent;
     width: 200px;
     font-size: 20px;
     font-weight: bold;
+    
 }
-
-footer {
+footer{
     height: 600px;
     background-color: rgb(243, 242, 242);
     margin-top: 200px;
 }
-
-.footer-links {
+.footer-links{
     display: flex;
     justify-content: space-around;
     margin: 10px;
 }
-
-.contact-title, .quicklinks-title, .experiencebmw-title, .legaltitle {
+.contact-title, .quicklinks-title, .experiencebmw-title, .legaltitle{
     margin-bottom: 10px;
     margin-top: 80px;
 }
-
 ul li {
     margin-bottom: 12px;
     list-style-type: none; 
     padding-left: 0;
 }
-
 ul li a {
     text-decoration: none; 
     color: inherit; 
 }
-
-.policy-links {
+.policy-links{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
 }
-
 .policy-links a {
     text-decoration: none;
     color: inherit; 
