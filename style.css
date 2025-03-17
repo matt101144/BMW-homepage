@@ -7,11 +7,11 @@
 }
 html, body {
     width: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden;   
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures consistent sizing */
-/* imagedark to light */
+    box-sizing: border-box; 
+
 }
 .top-card, .third-card, .fourth-card, .fifth-card {
     position: relative;
@@ -187,7 +187,9 @@ button{
     font-size: 26px;
     text-align: center;
     background-color: white;
+   
 }
+
 .box1button{
     width: 380px; /* Adjusted for the buttons to be wider */
     height: 50px;
@@ -381,4 +383,9 @@ ul li a {
     cursor: pointer; 
     margin-bottom: 10px;
     margin-right: 10px;
+} 
+.fourboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
