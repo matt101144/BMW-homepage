@@ -173,14 +173,14 @@ button{
 .secondtitle{
     display: flex;
     justify-content: center;
-    font-size: 36px;
+    font-size: 30px;
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .fourboxes{
     display: flex;
     justify-content: space-between;
-    margin-right: 150px;
+    margin-right: 160px;
     margin-left: 150px;
     margin-top: 100px;
     margin-bottom: 40px;
@@ -191,14 +191,15 @@ button{
 }
 
 .box1button{
-    width: 380px; /* Adjusted for the buttons to be wider */
+    width: 340px; /* Adjusted for the buttons to be wider */
     height: 50px;
     background-color: transparent;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 .box1title{
     margin-bottom: 20px;
+    font-size: 24px;
 }
 .third-card{
     background-image: url(./images/3rdcardimage.jpg);
@@ -384,8 +385,3 @@ ul li a {
     margin-bottom: 10px;
     margin-right: 10px;
 } 
-.fourboxes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
