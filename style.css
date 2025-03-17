@@ -166,6 +166,7 @@ button{
     margin: 0 auto;    /* Centers the content properly */
     box-sizing: border-box; /* Ensures padding doesn’t expand the width */
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .second-card .box {
