@@ -162,11 +162,13 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;       /* Ensures it spans the full screen width */
-    max-width: 100vw;  /* Prevents it from exceeding the viewport width */
+    max-width: 90%;  /* Prevents it from exceeding the viewport width */
     margin: 0 auto;    /* Centers the content properly */
     box-sizing: border-box; /* Ensures padding doesn’t expand the width */
     overflow: hidden;
     flex-wrap: wrap;
+    gap: 10px;
+
 }
 
 .second-card .box {
@@ -213,6 +215,14 @@ button{
     background-repeat: no-repeat; 
     width: 100%; 
     height: 70vh;
+    min-height: 400px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+.third-card .card-buttons{
+    margin-top: auto;
 }
 .thirdmaintext{
     display: flex;
