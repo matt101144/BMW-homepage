@@ -216,12 +216,14 @@ button{
     width: 100%; 
     height: 100vh;
 }
-
 .thirdmaintext{
     display: flex;
     flex-direction: column;
     margin-left: 80px;
     color: white;
+}
+.but1 .but2{
+    margin-bottom: 60px;
 }
 .title-3{
     margin-top: 80px;
