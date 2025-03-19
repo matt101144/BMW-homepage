@@ -214,16 +214,9 @@ button{
     background-position: center; 
     background-repeat: no-repeat; 
     width: 100%; 
-    height: 70vh;
-    min-height: 400px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    overflow: visible;
+    height: 100vh;
 }
-.third-card .card-buttons{
-    margin-top: auto;
-}
+
 .thirdmaintext{
     display: flex;
     flex-direction: column;
