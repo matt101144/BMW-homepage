@@ -50,16 +50,15 @@ button{
 .logo {
     height: 50px; 
     width: 50px;
-    margin: 0; /* Remove unnecessary spacing */
-    padding: 0; /* Ensure no internal space */
-    align-self: center; /* Align perfectly with navbar items */
+    margin: 0; 
+    padding: 0; 
+    align-self: center; 
 }
 
 .navbar {
     display: flex;
-    align-items: center; /* Ensures everything is aligned in the middle */
+    align-items: center; 
     justify-content: space-between;
-    /* padding: 40px 100px;  */
     border-bottom: 2px solid white;
     margin-left: 50px;
     margin-right: 50px;
@@ -69,7 +68,7 @@ button{
 .navbar-left,
 .navbar-right {
     display: flex;
-    align-items: center; /* Aligns buttons and logo */
+    align-items: center; 
 }
 
 
@@ -162,9 +161,9 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%; /* Ensures it spans the full width */
-    max-width: 100%; /* Prevents overflow */
-    margin: 0 auto; /* Centers content */
+    width: 100%; 
+    max-width: 100%; 
+    margin: 0 auto; 
     box-sizing: border-box;
     overflow: hidden;
     flex-wrap: wrap;
@@ -172,9 +171,9 @@ button{
 }
 
 .second-card .box {
-    flex: 1 1 22%; /* Keeps the layout consistent and responsive */
-    max-width: 22%; /* Prevents overflow */
-    min-width: 180px; /* Adjusted for better responsiveness */
+    flex: 1 1 22%; 
+    max-width: 22%; 
+    min-width: 180px; 
     text-align: center;
 }
 
@@ -188,10 +187,10 @@ button{
 
 .fourboxes {
     display: flex;
-    justify-content: center; /* Keeps spacing even */
-    gap: 15px; /* Provides uniform spacing */
-    margin: 50px auto; /* Centers and ensures no excess margin */
-    width: 90%; /* Prevents content from overflowing */
+    justify-content: center; 
+    gap: 15px; 
+    margin: 50px auto; 
+    width: 90%; 
     max-width: 100%;
     text-align: center;
     background-color: white;
@@ -199,7 +198,7 @@ button{
 
 
 .box1button{
-    width: 340px; /* Adjusted for the buttons to be wider */
+    width: 340px; 
     height: 50px;
     background-color: transparent;
     font-weight: bold;
